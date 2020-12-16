@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
 
 :root{
     --orange: rgb(241, 144, 32);
-    --dark:#8e9296;
+    --dark:#828588;
     
 }
 *{
     box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     max-width: 80%;
     margin: auto;
 }
@@ -153,7 +154,7 @@ article button{
 footer{
     
     background: rgb(168, 201, 38);
-    height: 300px;
+    height: auto;
     width:100%;
     font-family:"Open sans";
     padding-top:30px;
@@ -219,3 +220,21 @@ footer{
     font-weight: 200;
 }
 
+/*About me*/
+.About-Me{
+    background-color: rgb(216, 214, 214);
+    text-align: center;
+}
+.pic-me{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
+.dog{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
