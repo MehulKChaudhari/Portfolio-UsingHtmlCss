@@ -1,21 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
-    --orange: rgb(230, 129, 15);
+    --orange: rgb(241, 144, 32);
+    --dark:#8e9296;
     
 }
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.primary-link {
+    display:block;
+   color: var(--orange);
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+
+.secondary-link {
+   display: block;
+   color: var(--secondary);
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+
+
+.nav {
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: rgb(63, 50, 50);
+    
+}
+
+.nav .active {
+    font-weight: bolder;
+    color: var(--orange);
+
+}
+
+.logo {
+    font-weight: bolder;
+    color: var(--orange);
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav ul {
+    text-align: right;
+}
+.Project-head{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(77, 19, 235);
+    position: relative;
+
+}
+
+header {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: darkgray
+}
+header p{
+    padding: 0.2rem;
+    text-align: center;
+    color:rgb(138, 111, 111);
+    
+}
+header button{
+    color: #0774f1; /* Green */
+    border: none;
+    border: 2px solid #0a98eb;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+  header button:hover{
+      font-size: 18px;
+      border-radius: 10px 7px;
+      box-shadow: 0 12px 16px 0 rgba(5, 194, 219, 0.24), 0 17px 50px 0 rgba(11, 131, 211, 0.19);
+  }
+
+header .hero {
+    border-radius: 2rem;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.cont {
+    background-color:var(--dark) ;
+    text-align: center;
+
+}
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+article{
+    text-align: center;
+    border: 1px dashed var(--dark);
+    margin: 5px;
+    
+}
+article img{
+    border-radius: 2rem;
+    max-width: 20%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+article button{
+    padding: 4px;
+    margin: 4px;
+    font: outline;
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: var(--orange);
+}
+
 footer{
     
-    background: palegreen;
-    height: auto;
-    width:100vw;
+    background: rgb(168, 201, 38);
+    height: 300px;
+    width:100%;
     font-family:"Open sans";
-    padding-top:40px;
+    padding-top:30px;
     color: #fff;
 }
 .footer-content{
@@ -60,7 +195,7 @@ footer{
 
 .footer-bottom{
     background:black;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 
