@@ -14,7 +14,9 @@ body {
     max-width: 80%;
     margin: auto;
 }
-
+button a {
+    color: black;
+}
 
 a {
     text-decoration: none;
@@ -254,9 +256,3 @@ footer{
     
 }
 
-
-/*index*/
-
-/* main{
-    text-align: center;
-} */
